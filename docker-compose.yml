@@ -8,6 +8,6 @@ services:
       - "3000:3000"
   app: 
     build: ./frontend
-    command: npm run dev --host 0.0.0.0
+    command: npm start
     ports:
       - "3001:5173"
